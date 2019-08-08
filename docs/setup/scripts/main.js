@@ -40,4 +40,6 @@
 //
 //
 
-
+window.onload = function() {
+  $(".loader_container").fadeOut();
+}
