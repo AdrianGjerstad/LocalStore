@@ -41,5 +41,10 @@
 //
 
 window.onload = function() {
-  $(".loader_container").fadeOut();
+  $(".loader_container").fadeOut(400, function() {
+    document.body.removeChild($(".loader_container")[0]);
+  });
+  $(".loader_back").fadeOut(400, function() {
+    document.body.removeChild($(".loader_back")[0]);
+  });
 }

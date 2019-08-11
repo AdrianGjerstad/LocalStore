@@ -41,7 +41,6 @@
 //
 
 window.onload = function(w, e) {
-  alert("foo");
   if(localStorage.getItem("localstore.set_up") === "false" ||
      localStorage.getItem("localstore.set_up") === null) {
     localStorage.setItem("localstore.set_up", "false");
