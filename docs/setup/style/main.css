@@ -44,13 +44,21 @@ under the MIT License. You may find its copy here:
   position: fixed;
   left: 0;
   top: 0;
-  line-height: 100vh;
-  vertical-align: middle;
+  height: 100%;
+  margin: auto 0;
   width: 100%;
   text-align: center;
   z-index: -1;
 
   font-size: 18px;
+}
+
+.center div.center_content {
+  position: absolute;
+  top: 50%;
+  margin-top: -20%;
+  height: 50%;
+  overflow-y: auto;
 }
 
 .left {
